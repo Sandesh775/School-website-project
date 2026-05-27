@@ -10,14 +10,14 @@ export default function Footer() {
     <footer className="bg-brand-navy border-t-4 border-brand-gold text-slate-300 font-sans mt-auto">
       {/* Primary Footer Grid */}
       <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-        
+
         {/* Column 1: Identity & Description */}
         <div className="space-y-6">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded bg-white p-1 flex items-center justify-center border border-slate-200">
-              <img 
-                src={logoImg} 
-                alt="Shree Deupur Namuna Logo" 
+              <img
+                src={logoImg}
+                alt="Shree Deupur Namuna Logo"
                 className="w-full h-full object-contain"
               />
             </div>
@@ -36,8 +36,8 @@ export default function Footer() {
         </div>
 
         {/* Column 2: Navigation Links */}
-        <div className="space-y-6">
-          <h3 className="text-xs font-bold uppercase tracking-wider text-slate-100 border-l-2 border-brand-gold pl-3 font-serif">
+        <div className="space-y-6 text-white">
+          <h3 className="text-xs  font-bold uppercase tracking-wider  border-l-2 border-brand-gold pl-3 font-serif">
             Academic Links
           </h3>
           <ul className="space-y-3 text-xs">
@@ -49,8 +49,8 @@ export default function Footer() {
               { name: 'Events & Activities', path: '/events' },
             ].map((link) => (
               <li key={link.path}>
-                <Link 
-                  to={link.path} 
+                <Link
+                  to={link.path}
                   className="hover:text-brand-gold transition-colors flex items-center gap-2"
                 >
                   <span className="text-[10px] text-brand-gold/60">▪</span> {link.name}
@@ -62,7 +62,7 @@ export default function Footer() {
 
         {/* Column 3: Contact Details & Socials */}
         <div className="space-y-6">
-          <h3 className="text-xs font-bold uppercase tracking-wider text-slate-100 border-l-2 border-brand-gold pl-3 font-serif">
+          <h3 className="text-xs text-white font-bold uppercase tracking-wider  border-l-2 border-brand-gold pl-3 font-serif">
             Contact Details
           </h3>
           <ul className="space-y-4 text-xs">
@@ -81,8 +81,8 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Mail className="w-4 h-4 text-brand-gold shrink-0" />
-              <a 
-                href="mailto:info@deupurnamuna.edu.np" 
+              <a
+                href="mailto:info@deupurnamuna.edu.np"
                 className="hover:text-brand-gold transition-colors break-all"
               >
                 info@deupurnamuna.edu.np
@@ -93,19 +93,19 @@ export default function Footer() {
           {/* Social Icons Arrangement */}
           <div className="pt-2">
             <div className="flex items-center gap-3">
-              <a 
-                href="https://www.facebook.com/p/Shree-Deupur-Namuna-English-Secondary-Boarding-School-100054545496805/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://www.facebook.com/p/Shree-Deupur-Namuna-English-Secondary-Boarding-School-100054545496805/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-brand-gold hover:text-brand-navy hover:border-brand-gold transition-all duration-300 group"
                 title="Follow us on Facebook"
               >
                 <svg className="w-4 h-4 group-hover:scale-110 transition-transform fill-current" viewBox="0 0 24 24">
-                  <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/>
+                  <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z" />
                 </svg>
               </a>
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="w-8 h-8 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-brand-gold hover:text-brand-navy hover:border-brand-gold transition-all duration-300 group opacity-55 cursor-not-allowed"
                 title="Website Portal"
               >
@@ -120,7 +120,7 @@ export default function Footer() {
           <h3 className="text-xs font-bold uppercase tracking-wider text-slate-100 border-l-2 border-brand-gold pl-3 font-serif">
             Locate Us
           </h3>
-          
+
           {/* Responsive Map Container */}
           <div className="w-full h-32 rounded overflow-hidden border border-slate-800 bg-slate-900 relative group">
             <iframe
