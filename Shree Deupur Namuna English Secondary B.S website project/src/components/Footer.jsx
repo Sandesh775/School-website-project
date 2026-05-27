@@ -62,7 +62,7 @@ export default function Footer() {
 
         {/* Column 3: Contact Details & Socials */}
         <div className="space-y-6">
-          <h3 className="text-xs text-white font-bold uppercase tracking-wider  border-l-2 border-brand-gold pl-3 font-serif">
+          <h3 className="text-xs  font-bold uppercase tracking-wider  border-l-2 border-brand-gold pl-3 font-serif">
             Contact Details
           </h3>
           <ul className="space-y-4 text-xs">
