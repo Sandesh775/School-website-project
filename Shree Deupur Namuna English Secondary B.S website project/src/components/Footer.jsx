@@ -37,7 +37,7 @@ export default function Footer() {
 
         {/* Column 2: Navigation Links */}
         <div className="space-y-6">
-          <h3 className="text-xs font-bold uppercase tracking-wider text-slate-100 border-l-2 border-brand-gold pl-3 font-serif">
+          <h3 className="text-xs text-white font-bold uppercase tracking-wider border-l-2 border-brand-gold pl-3 font-serif">
             Academic Links
           </h3>
           <ul className="space-y-3 text-xs">

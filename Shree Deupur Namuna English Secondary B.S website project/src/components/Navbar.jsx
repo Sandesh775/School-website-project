@@ -26,7 +26,7 @@ export default function Navbar() {
             <img 
               src={logoImg} 
               alt="Shree Deupur Namuna Logo" 
-              className="w-full h-full object-contain"
+              className="w-full h-full object-cover"
             />
           </div>
           <div className="flex flex-col">
